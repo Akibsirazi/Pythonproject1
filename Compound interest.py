@@ -1,0 +1,6 @@
+p=int(input("Enter the initial principal:"))
+r=int(input("Enter the rate percentage:"))
+t=int(input("Enter the time period:"))
+n=int(input("Enter the no. of times to calculate interest:"))
+a= p *(1+r/n) ** (n*t)
+print(a)
